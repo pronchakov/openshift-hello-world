@@ -1,0 +1,14 @@
+logging:
+  config: classpath:logback.xml
+camel:
+  springboot:
+    name: hello-world-camel
+server:
+  address: 0.0.0.0
+management:
+  server:
+    address: 0.0.0.0
+endpoints:
+  enabled: false
+  health:
+    enables: true
