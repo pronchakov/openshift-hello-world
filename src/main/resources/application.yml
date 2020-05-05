@@ -3,6 +3,7 @@ logging:
 camel:
   springboot:
     name: hello-world-camel
+    main-run-controller: true
 server:
   address: 0.0.0.0
 management:
